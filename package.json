@@ -1,0 +1,15 @@
+{
+  "name": "saml-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "samlify": "^2.7.4",
+    "@authenio/samlify-xsd-schema-validator": "^1.0.3"
+  }
+}
