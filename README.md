@@ -15,6 +15,7 @@ Simple utility to generate and validate IDP initiated SAML packet
 ** sp-pvt.pem
 * You can create your own self-signed certificates using openssl https://github.com/tngan/samlify/blob/master/docs/key-generation.md or through https://www.samltool.com/self_signed_certs.php
 * If you creating private key password protected , then make sure to pass keys while initialization of SP or IDP under index.js
+* <b> Note </b> Make sure you update idpmetadata.xml if you generate new certiicates. Please update X509Certificate under <b>signing</b> with certificate from idp-pub.crt. Please update X509Certificate under <b>encryption</b> with certificate from sp-pub.crt. 
 
 # Execute 
 * <b> npm run test</b>
