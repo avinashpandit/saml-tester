@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "samlify": "^2.7.4",
+    "samlify": "^2.8.10",
     "@authenio/samlify-xsd-schema-validator": "^1.0.3"
   }
 }
